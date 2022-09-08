@@ -280,14 +280,14 @@ a:hover {
     margin-left: 0;
 }
 .col-sm-12 {
-    color: #FFFFFF;
+    color: black;
 }
 
 .col-sm-3 {
-    color: #575757;
+    color: black;
 }
 .fa {
-    color: white;
+    color: black;
 }
 .black {
     color: #000000;
@@ -689,7 +689,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: black;
 }
 
 .hero-bloc-text {
@@ -821,6 +821,10 @@ h1 {
 
 .tc-white {
     color: white;
+}
+.size {
+    font-size: 30px;
+    
 }
 .legende {
     font-size: 20px;
