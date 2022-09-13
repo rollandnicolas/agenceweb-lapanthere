@@ -20,7 +20,7 @@
 	<script src="./js/blocs.js"></script>
 	<script src="./js/jqBootstrapValidation.js"></script>
 	<script src="./js/formHandler.js"></script>
-	<title>page2</title>
+	<title>Contact</title>
 
 </head>
 
@@ -32,6 +32,17 @@
 					<div class="navbar-header">
 						<a class="navbar-brand" href="index.html"><img src="img/agence-la-panthere-monochrome.svg"
 								alt="atlanta web design logo" height="40" /></a>
+					</div>
+
+					<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
+						<ul class="site-navigation nav navbar-nav">
+							<li>
+								<a href="index.html">Accueil</a>
+							</li>
+							<li>
+								<a href="page2.html">Contact</a>
+							</li>
+						</ul>
 					</div>
 
 				</nav>
@@ -57,31 +68,31 @@
 			<div class="container bloc-lg">
 				<div class="row">
 					<div class="col-sm-6">
-						<form id="form_1" novalidate success-msg="Your message has been sent."
-							fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+						<form id="form_1" novalidate data-success-msg = "Your message has been sent."
+							data-fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 							<div class="form-group">
 								<label for="name">
 									Nom
 								</label>
-								<input id="name" class="form-control" required="nom" />
+								<input id="name" class="form-control" type="text" required="required" />
 							</div>
 							<div class="form-group">
-								<label for="mail">
+								<label>
 									Adresse email
 								</label>
-								<input id="email" class="form-control" type="email" required="e-mail" />
+								<input id="email" class="form-control" type="email" required="required" />
 							</div>
 							<div class="form-group">
-								<label for="init">
+								<label>
 									Comment nous avez-vous connu ?
 								</label>
-								<input class="form-control" type="email" required="Comment nous avez-vous connu?" id="input_504" />
+								<input class="form-control" type="text" required="required" id="input_504" />
 							</div>
 							<div class="form-group">
-								<label for="brief">
+								<label>
 									Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
 								</label><textarea id="message" class="form-control" rows="4" cols="50"
-									required="brief du projet"></textarea>
+									required="required"></textarea>
 							</div>
 							<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine"
 								type="submit">
